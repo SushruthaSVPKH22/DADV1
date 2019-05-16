@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>Election Commission</title>
+<head>
+	<script type="text/javascript">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+	<script type="text/javascript" src="TrendAnalysis.js"></script>
+	</script>
+	<style>
+	#styling{
+		background-image: url("eci.jpg");
+		height: 400px;
+		background-position: center; 
+  		background-repeat: no-repeat; 
+  		background-size: cover; 
+	}
+</style>
+</head>
+<body id="styling">
+<center>
+<h1 style="color: aqua">ELECTION COMMISSION OF INDIA</h1>
+<h2 style="color: aqua">GENERAL ELECTION TO VIDHAN SABHA TRENDS & RESULT 2018</h2>
+<a href = "index.html" style="color:lime">HOME</a>
+<br>
+<a href="main1.html">Partywise</a>
+<a href="main2.html">Constituencywise-All Candidates</a>
+<a href="main3.html">Constituencywise Trends</a>
+<!--<h5>Partywise</h5>-->
+<h1 style="color:red;">Constituency Trends</h1>
+<label>Select State</label>
+<select name="states" id="selectS" onchange="stateChange()">
+  <option>Choose State</option>
+  <option value="Telangana">Telangana</option>
+  <option value="Mizoram">Mizoram</option>
+  <option value="Rajasthan">Rajasthan</option>
+  <option value="MadhyaPradesh">MadhyaPradesh</option>
+  <option value="Chhattisgarh">Chhattisgarh</option>
+</select>
+<div id="myDiv" style="width:1100px;height:600px;"></div>
+<br>
+<br>
+<br>
+<br>

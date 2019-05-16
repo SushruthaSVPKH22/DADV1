@@ -1,0 +1,31 @@
+<html>
+<title>Election Commission</title>
+<head>
+</head>
+<body>
+<script src="TrendAnalysis.js">
+</script>
+<center>
+<h1>ELECTION COMMISSION OF INDIA</h1>
+<h2>GENERAL ELECTION TO VIDHAN SABHA TRENDS & RESULT 2018</h2>
+<h3>Partywise Trends</h3>
+<label>Select State</label>
+
+<select name="states" id="selectS" onchange="stateChange()">
+  <option>Choose State</option>
+  <option>Telangana</option>
+  <option>Mizoram</option>
+  <option>Rajasthan</option>
+  <option>MadhyaPradesh</option>
+  <option>Chhattisgarh</option>
+</select>
+<br>
+<br>
+<br>
+
+  
+
+
+</center>
+</body>
+</html>
